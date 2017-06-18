@@ -1,0 +1,17 @@
+{
+  "name": "naturegreen-light-syntax",
+  "theme": "syntax",
+  "version": "1.7.1",
+  "description": "Naturegreen Light Syntax Theme based on Atom One Light theme",
+  "keywords": [
+    "nature",
+    "green",
+    "light",
+    "syntax"
+  ],
+  "repository": "https://github.com/chicaothiagogv/naturegreen-light-syntax.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}

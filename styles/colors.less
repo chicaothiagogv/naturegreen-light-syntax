@@ -1,0 +1,30 @@
+
+// Config -----------------------------------
+@syntax-hue:          120;
+@syntax-saturation:    15%;
+@syntax-brightness:   98%;
+
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 8%, 24%);
+@mono-2: hsl(@syntax-hue, 6%, 44%);
+@mono-3: hsl(@syntax-hue, 4%, 64%);
+
+// Colors -----------------------------------
+@hue-1:   hsl(90, 100%, 35%); // mehtods php
+@hue-2:   hsl(275, 100%, 40%); // methods
+@hue-3:   hsl(150, 100%, 35%); // keywods
+@hue-4:   hsl(25, 100%, 35%); // string
+
+@hue-5:   hsl(180, 70%, 35%); // variables & tags
+@hue-5-2: hsl(0, 0%, 0%); // php tag
+
+@hue-6:   hsl(60, 100%, 30%); // numbers imports attributes
+@hue-6-2: hsl(60, 100%, 35%); // Class
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-bg, 36%);
+@syntax-guide:  fade(@syntax-fg, 20%);
+@syntax-accent: hsl(@syntax-hue, 100%, 30% );
