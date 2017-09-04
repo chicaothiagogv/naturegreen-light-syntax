@@ -9,7 +9,7 @@
     "light",
     "syntax"
   ],
-  "repository": "https://github.com/chicaothiagogv/naturegreen-light-syntax.git",
+  "repository": "https://github.com/fthiagogv/naturegreen-light-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.40.0"
